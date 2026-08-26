@@ -1,0 +1,16 @@
+# Секреты и данные
+.env
+data/
+
+# Зависимости движка
+engine/node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Прочее
+*.log

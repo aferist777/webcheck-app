@@ -1,0 +1,18 @@
+{
+  "name": "webcheck-engine",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Vendored web-check API modules (lissy93/web-check) + runcheck.mjs runner. Backend-only dependencies — frontend (React/Astro) and browser checks are intentionally excluded. Original manifest kept as package.web-check.json.",
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "cheerio": "^1.2.0",
+    "psl": "^1.15.0",
+    "puppeteer-core": "^25.1.0",
+    "whoiser": "^2.0.0-beta.10",
+    "xml2js": "^0.6.2"
+  },
+  "comment": "Браузерные проверки (cookies, tech-stack, screenshot) требуют дополнительно: puppeteer / puppeteer-core / @sparticuz/chromium / wappalyzer. Поставьте их вручную, если включаете эти проверки."
+}
